@@ -25,8 +25,17 @@
             position="0 0 0.1" 
             scale="1 1 1" 
             src="#avatarModel" 
-            animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate">
+            animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate"
+            
+            autoStart: false;
+            filterMinCF: 0.0001;
+            filterBeta: 0.001;
+            warmupTolerance: 5;
+            missTolerance: 10;>
+            
         </a-entity>
+
+        
 
     </a-scene>
     
